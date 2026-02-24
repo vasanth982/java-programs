@@ -1,0 +1,32 @@
+class Vehicle{
+private String brand="Ford";
+public void honk(){
+System.out.println("Honk");
+}
+}
+
+
+class Car{
+private String modelName="Ford1";
+public static void main(String[] args){
+Car c1=new Car();
+c1.honk();
+}
+}
+
+
+class Car1{
+private String modelName="Ford1";
+public static void main(String[] args){
+Vehicle v1=new Vehicle();
+v1.honk();
+}
+}
+
+
+class Vehicle{
+private String brand="Ford";
+private void honk(){
+System.out.println("Honk");
+}
+}
