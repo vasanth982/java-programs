@@ -36,7 +36,7 @@ System.out.println("Enter a value");
 data = scan.nextInt();
 head = l1.createLL(data);
 break;
-
+fd
 case 2:
 System.out.println("Enter a value");
 data = scan.nextInt();
